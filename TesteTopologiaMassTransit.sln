@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteTopologiaMassTransit.Api", "TesteTopologiaMassTransit.Api\TesteTopologiaMassTransit.Api.csproj", "{1EAACF73-B46E-4E7E-BDA9-64C33C4E40E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2991E32E-178C-4E53-BDB5-36711508F52A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabixoMQ", "RabixoMQ", "{8D73827D-AB1B-49B5-BEEE-F8F7038151B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{61D74F45-B4D8-4FF5-84FD-C2DA85683501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteTopologiaMassTransit.Consumer", "Consumer\TesteTopologiaMassTransit.Consumer\TesteTopologiaMassTransit.Consumer.csproj", "{0795C0DC-43E2-40E7-A555-7335948B8FAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EAACF73-B46E-4E7E-BDA9-64C33C4E40E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAACF73-B46E-4E7E-BDA9-64C33C4E40E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAACF73-B46E-4E7E-BDA9-64C33C4E40E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAACF73-B46E-4E7E-BDA9-64C33C4E40E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0795C0DC-43E2-40E7-A555-7335948B8FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795C0DC-43E2-40E7-A555-7335948B8FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795C0DC-43E2-40E7-A555-7335948B8FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795C0DC-43E2-40E7-A555-7335948B8FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EAACF73-B46E-4E7E-BDA9-64C33C4E40E5} = {2991E32E-178C-4E53-BDB5-36711508F52A}
+		{0795C0DC-43E2-40E7-A555-7335948B8FAC} = {61D74F45-B4D8-4FF5-84FD-C2DA85683501}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE09518F-DA70-413F-9190-194C537BD638}
+	EndGlobalSection
+EndGlobal
